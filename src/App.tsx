@@ -1,4 +1,3 @@
-import React from 'react';
 import ValentineMessage from './components/ValentineMessage';
 import './style.css';
 
