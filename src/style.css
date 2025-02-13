@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9e1e1;
+    color: #d14d72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  img, video, iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  .reflection {
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    transform: scaleY(-1);
+    opacity: 0.5;
+    border-radius: 10px;
+    pointer-events: none;
+  }
+  
+  .reaction {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-text {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  .animated-text:nth-child(1) { animation-delay: 0.5s; }
+  .animated-text:nth-child(2) { animation-delay: 1s; }
+  .animated-text:nth-child(3) { animation-delay: 1.5s; }
+  .animated-text:nth-child(4) { animation-delay: 2s; }
+  .animated-text:nth-child(5) { animation-delay: 2.5s; }
+  .animated-text:nth-child(6) { animation-delay: 3s; }
+  .animated-text:nth-child(7) { animation-delay: 3.5s; }
+  .animated-text:nth-child(8) { animation-delay: 4s; }
+  .animated-text:nth-child(9) { animation-delay: 4.5s; }
+  .animated-text:nth-child(10) { animation-delay: 5s; }
+  .animated-text:nth-child(11) { animation-delay: 5.5s; }
+  .animated-text:nth-child(12) { animation-delay: 6s; }
+  .animated-text:nth-child(13) { animation-delay: 6.5s; }
+  .animated-text:nth-child(14) { animation-delay: 7s; }
+  .animated-text:nth-child(15) { animation-delay: 7.5s; }
+  .animated-text:nth-child(16) { animation-delay: 8s; }
+  .animated-text:nth-child(17) { animation-delay: 8.5s; }
+  .animated-text:nth-child(18) { animation-delay: 9s; }
